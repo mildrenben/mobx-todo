@@ -10,9 +10,7 @@
     "test": "jest --watch",
     "test:nowatch": "jest",
     "coverage": "jest --coverage --watch",
-    "lint": "eslint ./src --fix --ext js",
-    "precommit": "yarn lint && yarn test:nowatch",
-    "prepush": "yarn lint && yarn test:nowatch"
+    "lint": "eslint ./src --fix --ext js"
   },
   "dependencies": {
     "babel-polyfill": "6.26.0",
